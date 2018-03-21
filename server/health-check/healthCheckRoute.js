@@ -6,7 +6,6 @@ const router = new Router({
 });
 
 router.get('/', async (ctx, next) => {
-	a = b;
 	ctx.body = { 'status': "OK" };
 });
 
