@@ -1,0 +1,47 @@
+{
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parser": "esprima",
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+      "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "rules": {
+      "quotes": 0,
+      "no-console": 1,
+      "no-debugger": 1,
+      "no-unused-vars": 1,
+      "no-case-declarations": 0,
+      "react/display-name": 0,
+      "react/prop-types": 0,
+      "react/no-multi-comp": 0
+    },
+    "globals": {
+      "_": true,
+      "LOGGER": true,
+      "PROMISE": true,
+      "WRAP": true,
+      "APP_CONFIG": true,
+      "NODE_ENV": true,
+      "REDIS_CLIENT": true,
+      "GlobalConstant": true,
+      "CLIENT_SOURCE_KEY": true,
+      "HOST_SOURCE_KEY": true,
+      "REDIS_URL": false,
+      "MONGO_URL": false,
+      "MONGOOSE": false,
+      "APP_ERROR": false,
+      "RESPONSE_HELPER": false,
+      "RESPONSE_MESSAGE": false
+    }
+  }

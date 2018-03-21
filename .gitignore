@@ -1,0 +1,11 @@
+newrelic_agent.log
+node_modules
+coverage
+.idea
+npm-debug.log
+uploads/
+.DS_Store
+public/
+logs/
+dump.rdb
+*.log
