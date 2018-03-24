@@ -1,7 +1,7 @@
 {
-  "name": "self-signup",
-  "version": "0.0.0",
-  "private": true,
+  "name": "koa-mongo-boilerplate",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
     "start": "export HOST=0.0.0.0; PORT=6100 node ./bin/www",
     "prod:start": "export NODE_ENV=production; PORT=6100 nodemon ./bin/www",
