@@ -21,7 +21,7 @@
     "taskDebug": "node --inspect --debug-brk ./server/tasks/taskRunner"
   },
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
     "bluebird": "^3.5.1",
     "debug": "~2.6.9",
     "dotenv": "^5.0.0",
